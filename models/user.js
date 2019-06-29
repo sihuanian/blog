@@ -1,3 +1,5 @@
+// 创建mongodb的集合，并导出模型
+
 const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost/blog', {useNewUrlParser: true})
